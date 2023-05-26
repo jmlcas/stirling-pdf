@@ -13,7 +13,7 @@ services:
     environment:
       APP_LOCALE: es-ES
       APP_HOME_NAME: Stirling PDF
-      APP_HOME_DESCRIPTION: Your locally hosted one-stop-shop for all your PDF needs.
+      APP_HOME_DESCRIPTION: Un único sitio, alojado localmente, para todas sus necesidades de PDF.
       APP_NAVBAR_NAME: Stirling PDF
       APP_ROOT_PATH: /
       ALLOW_GOOGLE_VISIBILITY: true
