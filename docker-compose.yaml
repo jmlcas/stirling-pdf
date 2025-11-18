@@ -1,9 +1,7 @@
-version: '3.3'
-
 services:
 
   stirling-pdf:
-    image: frooodle/s-pdf
+    image: frooodle/s-pdf:latest
     container_name: s-pdf
     ports:
       - '8200:8080'
@@ -16,6 +14,5 @@ services:
       APP_HOME_DESCRIPTION: Un único sitio, alojado localmente, para todas sus necesidades de PDF.
       APP_NAVBAR_NAME: Stirling PDF
       APP_ROOT_PATH: /
-      ALLOW_GOOGLE_VISIBILITY: true
+      ALLOW_GOOGLE_VISIBILITY: true     
 
-      
